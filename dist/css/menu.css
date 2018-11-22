@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.93;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -71,7 +71,7 @@
     font-size: 30px;
     text-transform: uppercase;
     padding: 1rem 0;
-    font-weight: 300;
+    font-weight: 400;
     color: #fff;
     text-decoration: none;
     transition: all 0.5s ease-out; }
