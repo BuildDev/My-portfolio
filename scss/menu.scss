@@ -12,7 +12,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: set-text-color($primary-color);
     @include easeOut;
   }
   // Rotate Into X with Menu Lines
@@ -38,7 +38,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.93;
+  opacity: 0.98;
   visibility: hidden;
 
   &.show {
@@ -111,7 +111,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 400;
-    color: #fff;
+    color: set-text-color($primary-color);
     text-decoration: none;
     @include easeOut;
 
