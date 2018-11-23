@@ -45,6 +45,19 @@
       height: 150px;
     }
   }
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
+  }
+  .bio-img {
+    margin-top: 30px;
+  }
 }
 //SMARTPHONES
 @include mediaSm {
