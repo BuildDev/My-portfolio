@@ -163,6 +163,10 @@ h3 {
     font-size: 3rem;
     margin-bottom: 2rem;
     padding: 0.2rem 1rem; }
+    h1.sm-heading.sm-heading2,
+    h2.sm-heading.sm-heading2,
+    h3.sm-heading.sm-heading2 {
+      font-size: 1rem; }
 
 a {
   color: #fff;
@@ -190,3 +194,7 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+
+.about-info {
+  display: grid;
+  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3'; }

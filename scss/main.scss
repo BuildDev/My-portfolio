@@ -2,6 +2,8 @@
 @import "menu";
 @import "mobile";
 
+// ***************Style Home Page **************//
+
 * {
   box-sizing: border-box;
 }
@@ -31,6 +33,9 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     //background: rgba(lighten($primary-color, 2), 0.5);
+    &.sm-heading2 {
+      font-size: 1rem;
+    }
   }
 }
 
@@ -68,4 +73,14 @@ main {
       margin-top: 20vh;
     }
   }
+}
+
+
+// ***************Style About Me Page **************//
+
+.about-info {
+  display: grid;
+  grid-template-areas:
+  'bioimage bio bio'
+  'job1 job2 job3'
 }
