@@ -32,10 +32,10 @@ h3 {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     //background: rgba(lighten($primary-color, 2), 0.5);
-    &.sm-heading2 {
-      font-size: 1rem;
-      margin-bottom: 2rem;
-    }
+  }
+  &.sm-heading2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -140,10 +140,12 @@ main {
 //*******************Buttons Styles Work Page***********//
 
 .btn {
-  display: inline-block;
+  display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem;
+  margin-left: 0.4rem;
+  margin-right: -0.4rem;
 
   &hover {
     background: $secondary-color;
@@ -153,10 +155,13 @@ main {
 
 .btn-dark {
   @extend .btn;
+  background: darken($secondary-color, 50);
+  color: #fff;
 }
-
 .btn-light {
   @extend .btn;
+  background: rgb(216, 216, 216);
+  color: rgb(0, 0, 0);
 }
 
 #main-footer {
