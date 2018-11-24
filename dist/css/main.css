@@ -193,6 +193,14 @@ main {
   padding: 0.5rem;
   border-bottom: #4791c7 5px solid; }
 
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr); }
+  .projects img {
+    width: 100%;
+    border: 3px #fff solid; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
