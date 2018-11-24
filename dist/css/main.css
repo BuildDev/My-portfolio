@@ -205,7 +205,7 @@ main {
       border-color: #4791c7;
       transition: all 0.5s ease-out; }
 
-.btn {
+.btn, .btn-dark, .btn-light {
   display: inline-block;
   padding: 0.5rem 1rem;
   border: 0;

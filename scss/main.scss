@@ -151,6 +151,14 @@ main {
   }
 }
 
+.btn-dark {
+  @extend .btn;
+}
+
+.btn-light {
+  @extend .btn;
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
