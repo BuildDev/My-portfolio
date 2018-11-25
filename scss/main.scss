@@ -13,7 +13,7 @@ body {
   color: set-text-color($primary-color);
   height: 100vh;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -162,6 +162,33 @@ main {
   @extend .btn;
   background: rgb(216, 216, 216);
   color: rgb(0, 0, 0);
+}
+
+// *********************Style Contact Me Page **********************//
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem;
+
+  div {
+    font-size: 2rem;
+    border: 2px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    @include easeOut;
+
+    &:hover {
+      padding: 0.5rem 1.5rem;
+      background: $secondary-color;
+      color: set-text-color($secondary-color);
+      span {
+        color: set-text-color($secondary-color);
+      }
+    }
+  }
 }
 
 #main-footer {

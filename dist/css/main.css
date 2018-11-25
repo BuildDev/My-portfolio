@@ -98,7 +98,7 @@ body {
   color: #fff;
   height: 100vh;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: Tahoma, "Segoe UI", Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
@@ -224,6 +224,25 @@ main {
   background: #d8d8d8;
   color: black; }
 
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 1rem; }
+  .boxes div {
+    font-size: 2rem;
+    border: 2px #fff solid;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 3rem;
+    transition: all 0.5s ease-out; }
+    .boxes div:hover {
+      padding: 0.5rem 1.5rem;
+      background: #4791c7;
+      color: #000; }
+      .boxes div:hover span {
+        color: #000; }
+
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -280,4 +299,9 @@ main {
     main main#home h1 {
       margin-top: 10vh; }
     main .projects {
-      grid-template-columns: 1fr; } }
+      grid-template-columns: 1fr; }
+  .boxes div {
+    font-size: 1.5rem;
+    border: 2px #fff solid;
+    padding: 1.5rem 1rem;
+    margin-bottom: 3rem; } }
