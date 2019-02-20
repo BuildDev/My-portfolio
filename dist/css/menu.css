@@ -53,9 +53,9 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 250px;
+      width: 240px;
       height: 250px;
-      background: url(../img/2.achref.jpg);
+      background: url(../img/portBig.jpg);
       border-radius: 50%;
       border: solid 3px #4791c7; }
   .menu .nav-item {
