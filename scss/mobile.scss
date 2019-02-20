@@ -76,6 +76,9 @@
     .projects {
       grid-template-columns: 1fr;
     }
+    #home {
+      overflow: auto;
+    }
     //.lg-heading {
     //margin-top: 1rem;
     //font-size: 5rem;
