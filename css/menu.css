@@ -53,7 +53,7 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
-      width: 240px;
+      width: 250px;
       height: 250px;
       background: url(../img/portBig.jpg);
       border-radius: 50%;
